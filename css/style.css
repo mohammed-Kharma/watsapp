@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body,html{
+    width: 100%;
+  
+}
+a{
+    text-decoration: none;
+}
+/* strad header */
+header{
+    width: 100%;
+    min-height: 120vh;
+    background: url(../img/Web\ 1920\ –\ 1.png) no-repeat center;
+    padding: 20px;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-header{
+    flex-basis: 35%;
+}
+.col-header1{
+    flex-basis:30%;
+}
+.col-header2{
+    flex-basis:30%;
+}
+.header-information{
+    float: right;
+}
+.list-header ul li{
+    display: inline-block;
+    font-family: 'Tajawal', sans-serif;
+    padding:  0px 10px;
+}
+.list-header ul li a{
+    color: #fff;
+    
+}
+.list-header ul li:hover{
+    text-decoration: underline;
+}
+.header-information button:nth-child(1){
+    background-color: #5ea593;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-information button:nth-child(2){
+    background-color: #9897a8;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+}
+.header-information button:nth-child(3){
+    background-color: #f5a300;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+}
+.mune{
+    display: none;
+}
+.content-header{
+    width: 40%;
+    text-align: right;
+    padding-top: 100px;
+}
+.content-header h2{
+    color: #fff;
+    font-family: 'Tajawal', sans-serif !important;
+    font-size: 28px;
+   
+    margin: 15px 0px;
+}
+.content-header p{
+    color: #eee;
+    line-height: 1.6;
+    margin: 15px 0px;
+    font-family: 'Tajawal', sans-serif !important;
+}
+.content-header button{
+    width: 150px;
+    height: 40px;
+    background-color: #2c2f5a;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    margin: 20px 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 1s;
+}
+.content-header button:hover{
+    background-color: #f5a300;
+}
+.icon-header{
+  text-align: left;
+    
+}
+.icon-header i{
+    color: #fff;
+    font-size: 28px;
+    margin: 10px;
+    cursor: pointer;
+}
+.icon-header i:hover{
+    color: #f5a300;
+}
+/* end header */
+.promming{
+    width: 100%;
+    min-height: 500px;
+    padding: 40px 20px;
+    direction: rtl;
+    background: #16183c;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.row-promming{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row;
+}
+.colum-promming{
+    flex-basis: 30%;
+}
+.prom-div{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #2c2f5a;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 1s;
+    
+}
+.div-active{
+    background-color: #f5a300;
+}
+.prom-div h2{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 40px;
+}
+.prom-div:hover{
+    background-color: #f5a300;
+    cursor: pointer;
+}
+.div-active:hover{
+    background-color: #2c2f5a;
+}
+.all-head h2{
+    font-family: 'Tajawal', sans-serif;
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+}
+.service{
+    width: 100%;
+    min-height: 300px;
+    text-align: right;
+    background-color: #5ea593;
+    padding: 30px;
+    padding-top: 70px;
+    position: relative;
+}
+.service .item{
+    height: 700px;
+    background-color: #fff;
+    /* direction: rtl; */
+}
+.service .item img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.service .item .ser-div{
+    position: absolute;
+   
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background:#7ed6df;
+    padding: 20px;
+     
+}
+.service .item .ser-div h2{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+}
+.service .item .ser-div h2 span{
+    color: #f5a300;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pos-silder{
+    position: relative;
+}
+.icon1 i{
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3));
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+.icon1 i:nth-child(1){
+    position: absolute;
+    left: 9%;
+}
+.icon1 i:nth-child(2){
+    position: absolute;
+    right: 9%;
+}
+/* profile */
+.profile{
+    width: 100%;
+    min-height: 300px;
+    text-align: right;
+    background-color: #5ea593;
+    /* padding: 30px; */
+    padding-top: 70px;
+    position: relative;
+}
+.profile .container{
+    width: 100% !important;
+}
+.row-profile{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-profile{
+    flex-basis: 16.66%;
+    
+}
+.prof-image{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.col-profile img{
+    width: 100%;
+    height: 100%;
+}
+.prof-image:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+}
+.prof-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    z-index: 1000;
+}
+.prof-div h2{
+    color: #fff;
+    font-size: 40px;
+    margin: 15px 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+.prof-div h3{
+    color: #fff;
+    font-size: 40px;
+    margin: 15px 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+/* Contact */
+.Contact{
+    width: 100%;
+    min-height: 300px;
+    text-align: right;
+    background-color: #16183c;
+    /* padding: 30px; */
+    padding-top: 70px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.row-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.colum-contact{
+    flex-basis: 55%;
+}
+.colum-contact img{
+    width: 100%;
+}
+.colum-contact1{
+    flex-basis: 40%;
+}
+.colum-contact1 h2{
+    font-family: 'Tajawal', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.content form{
+    width: 100%;
+}
+.all-input{
+    width: 100%;
+    text-align: right;
+    margin: 15px 0px;
+}
+.all-input input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.all-input textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.all-but button{
+    width: 200px;
+    height: 40px;
+    background-color: #f5a300;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.all-but{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.all-but button:hover{
+    background-color: #7ed6df;
+}
+/* footer */
+footer{
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    background-color: #5ea593;
+    direction: rtl;
+}
+footer ul li{
+    list-style: none;
+}
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.col-foot{
+    flex-basis: 24%;
+}
+.part1 p{
+    color: #fff;
+    font-family: 'Tajawal', sans-serif; 
+    margin: 15px 0px;
+    line-height: 1.7;
+
+}
+.col-foot h3{
+    color: #fff;
+    font-family: 'Tajawal', sans-serif; 
+    font-size: 28px;
+}
+.col-foot ul li{
+    margin: 15px 0px;
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    transition: all 1s;
+}
+.col-foot ul li a{
+    color: #fff;
+    font-weight: bold;
+    transition: all 1s;
+}
+.col-foot ul li a:hover{
+    color: #fff;
+}
+.col-foot .social i{
+    margin: 20px 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.col-foot .social i:hover{
+    background-color: #2c2f5a;
+    color: #fff;
+} 
+.col-foot ul li i{
+    margin-right: 12px;
+}
+.col-foot ul li:hover{
+    transform: translateX(10px);
+}
+/* end footer */
+/* strad page English */
+.English{
+    direction: ltr;
+}
+.English .header-information button{
+    font-family: 'Raleway', sans-serif;
+
+
+    text-transform: capitalize;
+}
+.English .list-header ul li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+.English .content-header{
+    text-align: left;
+}
+.English .content-header h2{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.5px;
+   
+    
+}
+.English .content-header p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.English .content-header .icon-header{
+    text-align: right;
+}
+.English .all-head h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.English .prom-div h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 37px;
+    text-transform: capitalize;
+}
+.English .service .item .ser-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background:#7ed6df;
+    padding: 15px;
+    left: 0; 
+    text-align:left ;
+     
+}
+.English .service .item .ser-div h2{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px;
+}
+.English .service .item .ser-div h2 span{
+    color: #f5a300;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.English .Contact{
+    text-align: left;
+}
+.English  .row-contact{
+    flex-direction: row-reverse;
+}
+.English  .colum-contact1 h2{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin: 20px 0px;
+    text-transform: capitalize;
+}
+.English  .row-promming{
+    flex-direction: row-reverse;
+}
+.English footer{
+    direction: ltr;
+}
+.prat4 img{
+    margin: 15px 0px;
+}
+.prat4 p{
+    margin: 15px 0px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
+.foot-input{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+}
+.foot-input input{
+    width: 60%;
+    height: 100%;
+    /* background-color: red; */
+}
+.foot-input button{
+    width: 40%;
+    height: 100%;
+    background-color: #16183c;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    transition: all 1s;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.foot-input button:hover{
+    background-color: #f5a300;
+}
+.arbic{
+    text-align: right;
+   
+} 
+.arbic ul li i{
+    margin-left: 15px;
+}
